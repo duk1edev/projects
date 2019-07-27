@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bb3c7cbe-0175-4868-8e66-bc0828df1e97</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HomeTask2(fibonaci).py</StartupFile>
+    <StartupFile>HomeTask3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HomeTask2%28fibonaci%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HomeTask3.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
