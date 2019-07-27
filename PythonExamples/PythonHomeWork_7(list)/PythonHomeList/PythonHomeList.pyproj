@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bb3c7cbe-0175-4868-8e66-bc0828df1e97</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HomeTask1.py</StartupFile>
+    <StartupFile>HomeTask2(fibonaci).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
