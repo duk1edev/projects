@@ -1,0 +1,62 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>7d2a97bf-1561-44b0-8ca0-8512c7d4cf83</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>example_hainon_tower.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonFunctions2</Name>
+    <RootNamespace>PythonFunctions2</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="example_hainon_tower.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="factorial.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="febonacci.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="scoping_example.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="min_max.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="radix-change.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="reverse_example.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="help_exapmle.py" />
+    <Compile Include="scoping_example2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="uoter_inner_function_example.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
