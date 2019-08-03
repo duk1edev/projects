@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>357d264b-8cda-420e-bb5f-015aa337595d</ProjectGuid>
+    <ProjectGuid>a066a9ce-273f-408a-b457-8e0be94d9780</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>password.py</StartupFile>
+    <StartupFile>Task2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonOOP</Name>
-    <RootNamespace>PythonOOP</RootNamespace>
+    <Name>PythonHomeWork2</Name>
+    <RootNamespace>PythonHomeWork2</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,32 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="class Rectangel.py">
+    <Compile Include="PythonHomeWork2.py" />
+    <Compile Include="Task1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Class_example_1.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Class_Example_Myobject.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Class_Human.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="coplex_numbers.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Incupsulation.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="password.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Property%28get,set%29.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PythonOOP.py" />
-    <Compile Include="singleton.py">
+    <Compile Include="Task2.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
