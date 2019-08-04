@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonHomeWork2.py" />
+    <Compile Include="AddTask.py" />
     <Compile Include="Task1.py">
       <SubType>Code</SubType>
     </Compile>
