@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a066a9ce-273f-408a-b457-8e0be94d9780</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Task2.py</StartupFile>
+    <StartupFile>Task3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Task2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Task3.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
