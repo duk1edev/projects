@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0c00e87c-0a40-461a-9113-2dc37f63cc47</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>onerelation_list.py</StartupFile>
+    <StartupFile>subgenerator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,14 +21,29 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="generator%28iterator%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="generator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="generator_expressions.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="my_for.py" />
     <Compile Include="my_range.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="onerelation_list%28new%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="onerelation_list.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="simple_iterator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="subgenerator.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
