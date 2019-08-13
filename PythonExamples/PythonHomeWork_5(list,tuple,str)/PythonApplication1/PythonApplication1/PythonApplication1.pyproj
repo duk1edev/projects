@@ -2,9 +2,9 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>0c00e87c-0a40-461a-9113-2dc37f63cc47</ProjectGuid>
+    <ProjectGuid>bfde63ff-9d62-4f5e-a4f5-4ac68d3c134e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>11-producer-consumer-coroutines.py</StartupFile>
+    <StartupFile>strings.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,35 +21,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="11-producer-consumer-coroutines.py">
+    <Compile Include="matrix.py" />
+    <Compile Include="range.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="generator%28iterator%29.py">
+    <Compile Include="strings.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="generator.py">
+    <Compile Include="tuples.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="generator_expressions.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="my_for.py" />
-    <Compile Include="my_range.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="onerelation_list%28new%29.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="onerelation_list.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="simple_iterator.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="subgenerator.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="yield.py">
+    <Compile Include="tuples%282%29.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
