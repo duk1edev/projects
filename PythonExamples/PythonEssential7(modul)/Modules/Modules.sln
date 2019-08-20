@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Fibonaci", "Fibonaci\Fibonaci.pyproj", "{BB4E7355-9B41-49E8-9262-6B29177A2E83}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Sys", "Sys\Sys.pyproj", "{2D917B10-B96E-4FD9-AEDC-C30919942CE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB4E7355-9B41-49E8-9262-6B29177A2E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4E7355-9B41-49E8-9262-6B29177A2E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D917B10-B96E-4FD9-AEDC-C30919942CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D917B10-B96E-4FD9-AEDC-C30919942CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75550352-25B6-41E5-9606-B494F1A5F5D1}
+	EndGlobalSection
+EndGlobal

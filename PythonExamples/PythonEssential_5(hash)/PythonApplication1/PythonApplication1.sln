@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication1", "PythonApplication1\PythonApplication1.pyproj", "{1C4F64A6-29A8-44FB-A449-FA043A3E4846}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "mapping(dictionary)", "maooin(dictionary)\mapping(dictionary).pyproj", "{8636821D-9A61-4B6D-A9B1-C90F6B756D83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C4F64A6-29A8-44FB-A449-FA043A3E4846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4F64A6-29A8-44FB-A449-FA043A3E4846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8636821D-9A61-4B6D-A9B1-C90F6B756D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8636821D-9A61-4B6D-A9B1-C90F6B756D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90FAD185-91F4-4B21-9BA5-20A2D3B42CF8}
+	EndGlobalSection
+EndGlobal
